@@ -1,0 +1,28 @@
+$first-color:  #02b9b2;
+$second-color: #dae11a;
+$third-color: #764c25;
+
+.menuNavigation {
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.menuList {
+    display: flex;
+
+    li {
+        margin: 1rem;
+        list-style-type: none;
+        padding: 20px 40px;
+        border-radius: 5px;
+        font-weight: 600;
+        background-color: $first-color;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        &.activeMenu {
+            background-color: #F0F0F0;
+            color: $first-color;
+        }
+    }
+}

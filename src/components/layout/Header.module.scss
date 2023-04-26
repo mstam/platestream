@@ -1,0 +1,46 @@
+$first-color:  #02b9b2;
+$second-color: #dae11a;
+$third-color: #764c25;
+
+body {
+    background-color: $second-color;
+}
+
+header {
+    width: 100%;
+    background-color: $first-color;
+    color: #ffffff;
+}
+
+.headerNavigation {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    left: 5%;
+  a {
+    text-decoration: none;
+    img {
+        max-width: 200px;
+    }
+  }
+}
+
+.cart {
+    position: relative;
+    right: 5%;
+}
+
+.headerVisual {
+    width: 100%;
+    min-height: 128px;
+    background: url('../../assets/ui/kitchen-pattern.png');
+    background-color: #ffffff;
+}

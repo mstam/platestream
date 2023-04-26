@@ -1,0 +1,34 @@
+$first-color:  #02b9b2;
+$second-color: #dae11a;
+$third-color: #764c25;
+
+.cartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 10rem;
+    min-height: 2.5rem;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: $third-color;
+    color: #ffffff;
+
+    svg {
+        margin: auto 5px;
+        min-width: 1.5rem;
+    }
+
+    span {
+        padding: 0 0.5rem;
+        min-width: max-content;
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span:nth-child(1){
+        border-right: 1px solid #FFFFFF;
+    }
+}

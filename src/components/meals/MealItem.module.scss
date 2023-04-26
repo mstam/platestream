@@ -1,0 +1,55 @@
+$first-color:  #02b9b2;
+$second-color: #dae11a;
+$third-color: #764c25;
+
+.mealItem {
+    width: 100%;
+    margin: 0.75%;
+    min-height: 320px;
+    border-radius: 10px;
+
+    .thumbNail {
+        img {
+            width: 100%;
+            height: auto;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+    }
+
+    .mealTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 11.5% 1.5% 1.5% 1.5%;
+        padding: 0 5%;
+    }
+
+    .mealDescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5% 1.5% 11.5% 1.5%;
+        padding: 0 5%;
+    }
+
+    .mealPrice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 3.5rem;
+        background-color: $third-color;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        svg {
+            margin: 0 0.5rem;
+            font-size: 1.4rem;
+        }
+    }
+}
