@@ -1,4 +1,13 @@
-This is a very basic sample app aiming to demonstrate some core concepts of ReactJS, such as State Hook and Context API, used in meaningfull scope-styled components.
+This is a very basic sample app aiming to demonstrate some core concepts of ReactJS, such as State Hook and Context API, used in meaningfull scope-styled components. 
+
+Feel free to clone the project and run
+
+### `npm install` and
+
+### `npm start`
+
+to view this demo locally.
+
 
 # Getting Started with Create React App
 
