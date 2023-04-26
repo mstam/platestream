@@ -1,3 +1,5 @@
+This is a very basic sample app aiming to demonstrate some core concepts of ReactJS, such as State Hook and Context API, used in meaningfull scope-styled components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
