@@ -2,7 +2,9 @@ This is a very basic sample app aiming to demonstrate some core concepts of Reac
 
 Feel free to clone the project and run
 
-### `npm install` and
+### `npm install` 
+
+and
 
 ### `npm start`
 
